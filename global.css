@@ -1,0 +1,100 @@
+/* FORMULARIO RO */
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500;700&family=Lobster&family=Satisfy&display=swap");
+
+* {
+	font-family: alkatra;
+}
+
+#orange {
+	font-family: satisfy;
+	color: orange;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 0px 1px 3px black;
+}
+h1 {
+	color: orange;
+	font-size: 50px;
+	text-align: left;
+	text-shadow: 0px 1px 3px black;
+	margin-left: 20px;
+}
+
+header {
+	padding-bottom: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: 0px 3px 7px orangered;
+	border-radius: 5px;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+nav a {
+	font-size: 16px;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: alkatra;
+	color: chocolate;
+	text-align: right;
+}
+nav a:hover {
+	color: rgb(203, 21, 21);
+	background-color: #b6e2a1;
+}
+nav {
+	display: flex;
+	gap: 10px;
+	text-align: right;
+}
+
+div {
+	margin-left: 10px;
+}
+
+.form {
+	border: none;
+	border-style: outset;
+	margin-right: 76vw;
+	align-items: center;
+	display: flex;
+	margin-bottom: 5px;
+}
+
+main {
+	background-color: rgb(245, 216, 167);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h2 {
+	color: #c58940;
+}
+
+h4 {
+	text-align: center;
+	color: chocolate;
+	font-size: 16px;
+}
+
+footer {
+	background-color: #ffd384;
+	margin-top: 10px;
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 550px;
+	padding-right: 150px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: 0px 3px 7px orangered;
+	border-radius: 5px;
+}
