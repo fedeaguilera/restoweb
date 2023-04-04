@@ -27,5 +27,6 @@ formularioContacto.addEventListener("submit", (e) =>{
         email: formularioContacto.email_ingresado.value,
         comentario: formularioContacto.comentario.value,
     })
+    formularioContacto.reset()
     renderizarUsuarios()
 })
