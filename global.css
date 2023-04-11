@@ -3,6 +3,10 @@
 
 * {
 	font-family: alkatra;
+	box-sizing: border-boxs;
+}
+html{
+    scroll-behavior: smooth;
 }
 /* HEADER FEDE */
 
@@ -83,7 +87,58 @@
 	}
 }
 /* FIN HEADER FEDE */
+/* css de baner FACUNDO*/
+.baner{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    
 
+}
+.baner img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    border-radius: 15px;
+    display: flex;
+	min-width: 300px;
+	
+   
+
+}
+.baner h1{
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px;
+    color: rgb(255, 136, 0);
+    -webkit-text-stroke: 0.5px rgb(238, 6, 6);
+	text-align: center;
+	
+  
+
+}
+.baner p{
+    font-size: 2.5rem;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px;
+    color: rgb(255, 136, 0);
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+	text-align: center;
+    
+}
+/* FIN CSS BANNER FACUNDO */
 /*INICIO CSS ROCIO FORMULARIO*/
 #formulario {
 	margin: 0;
@@ -154,6 +209,131 @@
 }
 
 /*FIN CSS ROCIO FORMULARIO*/
+/* INICIO CSS RAUL QUIEN SOMOS */
+#integrante2{
+	/*   background-color: rgb(245, 245, 245 , 0,5); */
+  
+  }
+  h3{
+	text-align : center;
+	font-size: 3rem;
+  }
+  
+  #integrante .container{
+	  margin-top: 0;
+	  padding: 90px 12px;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  background-color: rgb(176, 212, 226, 0,3);
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  
+   }
+  
+   #integrante .textos{
+	   width: 50%;
+	   max-width: 600px;
+	   text-align: initial;
+	   padding: 2px 30px;
+	   display: flex;
+	   flex-direction: column;
+	   align-items: center;
+	   color: rgb(18, 12, 34);
+	   
+  
+   }
+   #integrante2 .container{
+	  padding: 90px 12px;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  background-color: rgba(234, 234, 245, 0.197);
+   }
+  
+   #integrante2 .textos{
+	   width: 50%;
+	   max-width: 600px;
+	   text-align: initial;
+	   padding: 0px 30px;
+	   display: flex;
+	   flex-direction: column;
+	   align-items: center;
+	   color:rgb(18, 12, 34);
+	   
+  
+   }
+  
+   #integrante h2{
+	   margin: 0;
+	   
+   }
+   #integrante .img-container1{
+	   background-image: url("media/raul.jpg");
+	   background-size: cover;
+	   background-position: center center;
+	   height: 400px;
+	   width: 400px;
+	   border-radius: 50%; 
+	   border-width: 5px;
+	   border-style:solid ;
+	   border-color: rgba(26, 26, 29, 0.75);
+	   box-shadow: 5px 5px 10px rgba(30, 30, 35, 0.9);
+	  
+   }
+  
+   #integrante2 .img-container2{
+	   background-image: url("media/mujer.png");
+	   background-size: cover;
+	   background-position: center center;
+	   height: 400px;
+	   width: 400px;
+	   border-radius: 50%;
+	   background-color: rgb(245, 245, 245);
+	   border-width: 5px;
+	   border-style:solid ;
+	   border-color: rgba(26, 26, 29, 0.75);
+	   box-shadow: 5px 5px 10px rgba(30, 30, 35, 0.9);
+	  
+   } #integrante .img-container3{
+	   background-image: url("media/mujer.png");
+	   background-size: cover;
+	   background-position: center center;
+	   height: 400px;
+	   width: 400px;
+	   border-radius: 50%;
+	   border-width:5px;
+	   border-style:solid ;
+	   border-color: rgba(26, 26, 29, 0.75);
+	   box-shadow: 5px 5px 10px rgba(30, 30, 35, 0.9);
+	  
+   } #integrante2 .img-container4{
+	   background-image: url("media/hombre.png");
+	   background-size: cover;
+	   background-position: center center;
+	   height: 400px;
+	   width: 400px;
+	   border-radius: 50%;
+	   background-color: rgb(245, 245, 245);
+	   border-width: 5px;
+	   border-style:solid ;
+	   border-color: rgba(26, 26, 29, 0.75);
+	   box-shadow: 5px 5px 10px rgba(30, 30, 35, 0.9);
+	  
+   } #integrante .img-container5{
+	   background-image: url("media/hombre.png");
+	   background-size: cover;
+	   background-position: center center;
+	   height: 400px;
+	   width: 400px;
+	   border-radius: 50%;
+	   border-width: 5px;
+	   border-style:solid ;
+	   border-color: rgba(26, 26, 29, 0.75);
+	   box-shadow: 5px 5px 10px rgba(30, 30, 35, 0.9);
+	  
+   }
+/* FIN CSS RAUL QUIENES SOMOS   */
 
 
 /* INICIO FOOTER - FEDE */
