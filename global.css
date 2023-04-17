@@ -16,6 +16,10 @@ html{
 	color: white;
 	position: sticky;
 	top: 0;
+	z-index: 100000;
+}
+.header h1{
+	color: rgb(255, 136, 0);
 }
 
 .header-top {
@@ -60,6 +64,10 @@ html{
 .header-menu a {
 	color: white;
 	text-decoration: none;
+	transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.header-menu a:hover{
+	color: rgb(255, 136, 0);
 }
 
 @media screen and (min-width: 768px) {
